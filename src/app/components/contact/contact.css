@@ -1,0 +1,21 @@
+/* Animación suave hacia arriba */
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0; /* Empieza invisible */
+}
+
+/* Retraso para el formulario para que aparezca un poco después */
+.delay-200 {
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

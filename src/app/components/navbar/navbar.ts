@@ -12,8 +12,8 @@ export class Navbar {
   
   menuItems = [
     { label: 'Inicio', link: '#' },
-    { label: 'Proyectos', link: '#proyectos' },
     { label: 'Sobre Mí', link: '#sobre-mi' },
+    { label: 'Proyectos', link: '#proyectos' },
     { label: 'Contacto', link: '#contacto' }
   ];
 
